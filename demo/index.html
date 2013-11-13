@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GMap Button Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj__mtxSMB8v-8bbbzG_L5M8pRd7vza4g&sensor=false"></script>
+    <script src="../gmap-button.js"></script>
+    <link rel="stylesheet" media="screen, print" href="../gmap-button.css">
+    <link rel="stylesheet" media="screen, print" href="demo.css">
+</head>
+<body>
+    <div id="main">
+        <h2>GMap Button Demo</h2>
+        <div class="examples">
+            <div class="example">
+                <div class="explanation">
+                    This page demonstrates several ways to use <a href="https://github.com/jsvine/gmap-button/">GMap Button</a>, a JavaScript library for adding buttons to embedded Google Maps. The most straight-forward way is to add a single button. By default, the button will be positioned at the top-right of the map. (Read more about Google Maps element positioning <a href="https://developers.google.com/maps/documentation/javascript/controls#ControlPositioning">here</a>.)
+                </div>
+                <code></code>
+                <div class="map"></div>
+            </div>
+            <div class="example">
+                <div class="explanation">
+                    You can also create groups of buttons, all abutting one another. The callback you pass to <span class="monospace">onclick</span> receives its associated <span class="monospace">google.maps.Map</span> object as its sole argument.
+                </div>
+                <code></code>
+                <div class="map"></div>
+            </div>
+            <div class="example">
+                <div class="explanation">
+                    GMap Button also comes with two pre-written buttons that help users get back to a map's previous states. Here's the first, <span class="monospace">undoZoomButton</span>. Change the zoom level to see it appear:                </div>
+                <code></code>
+                <div class="map"></div>
+            </div>
+            <div class="example">
+                <div class="explanation">
+                    And here's the second, <span class="monospace">resetButton</span>, with custom positioning. Again, change the zoom level to see it appear:
+                </div>
+                <code></code>
+                <div class="map"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="demo.js"></script>
+</body>
+</html>
