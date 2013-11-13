@@ -11,7 +11,8 @@
      *
      *  - `onclick`: a callback, triggered when the button is clicked
      *
-     *  - `position` (optional, defaults to "TOP_RIGHT"): desired position on the map, from the options described at https://developers.google.com/maps/documentation/javascript/controls#ControlPositioning
+     *  - `position` (optional, defaults to "TOP_RIGHT"): desired position on the map, from the options 
+     *      described at https://developers.google.com/maps/documentation/javascript/controls#ControlPositioning
      *
      *  - `group` (optional, defaults to none): See `createGroup` below.
      */
